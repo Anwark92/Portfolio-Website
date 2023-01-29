@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <nav class="navbar">
+      <h1>Anwar Khan Portfolio</h1>
+      <div class="navigationmenu">
+        <a href="#aboutme">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Let's Connect</a>
+      </div>
+    </nav>
+    <section class="firstsection">
+      <img class="profileimage" src="images/avatar.png">
+      <div class="firstsectiondetails">
+        <h1>Anwar Khan</h1>
+        <h3>Practicing Prgramming Languages & Graphic Designer/Video Editor</h3>
+      </div>
+    </section>
+    <section class="aboutme" id="aboutme">
+      <h1>About Me</h1>
+      <p>
+        This section is about me. I'm making this portfolio website for DevTown bootcamp. I'm enjoying their bootcamps
+        and very thankful to them for providing this bootcamps for free of cost. Now there is some lorem ipsum content
+        now onwards. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra condimentum pulvinar. Donec
+        non consectetur dui. Aenean tincidunt rhoncus congue. Suspendisse feugiat magna nisl, convallis dictum ligula
+        varius ut. Fusce at vehicula libero. Cras at malesuada odio, ac feugiat nisi. Nunc volutpat vulputate metus
+        vitae tempor. Nunc feugiat lacinia feugiat. Vestibulum non eros nec massa molestie vehicula vel in ex. Maecenas
+        dapibus vulputate interdum. Nunc at molestie dolor, quis efficitur lacus. Suspendisse laoreet gravida feugiat.
+        Proin sagittis mi in sapien malesuada, sit amet aliquam metus congue. Pellentesque posuere at ex at euismod.
+        Vestibulum tempus dui sed risus aliquam ornare. Sed sodales dui ante, ac faucibus turpis lobortis semper.
+      </p>
+    </section>
+    <section class="skillsandprojects">
+      <div class="skills" id="skills">
+        <h1 class="cardheading">Skills</h1>
+        <img src="/images/html.svg" title="html">
+        <img src="/images/css.svg" title="CSS">
+        <img src="/images/js.svg" title="JavaScript">
+        <img src="/images/nodejs.svg" title="Node.JS">
+        <img src="/images/react.svg" title="React">
+        <img src="/images/mongo.svg" title="MongoDB">
+        <img src="/images/java.svg" title="Java">
+        <img src="/images/c++.svg" title="C++">
+      </div>
+      <div class="projects" id="projects">
+        <h1 class="cardheading">Projects</h1>
+        <div  class="projectcontainer">
+          <img src="/images/java.svg">
+          <div class="projectdescription">
+            <h4>Project Name</h4>
+            <p>Some details of the project.Some details of the project.Some details of the project.</p>
+          </div>
+        </div>
+        <div  class="projectcontainer">
+          <img src="/images/java.svg">
+          <div class="projectdescription">
+            <h4>Project Name</h4>
+            <p>Some details of the project.Some details of the project.Some details of the project.</p>
+          </div>
+        </div>
+        <div  class="projectcontainer">
+          <img src="/images/java.svg">
+          <div class="projectdescription">
+            <h4>Project Name</h4>
+            <p>Some details of the project.Some details of the project.Some details of the project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contactform" id="contactform">
+      <h1>Let's Connect</h1>
+      <div class="formgroup">
+        <label for="name">Enter Full name</label><br/>
+        <input type="text" id="name" placeholder="Full Name"/>
+      </div>
+      <div class="formgroup">
+        <label for="email">Email</label><br/>
+        <input type="text" id="email" placeholder="Email"/>
+      </div>
+      <div class="formgroup">
+        <label for="message">Message</label><br/>
+        <textarea placeholder="Send some message" id="message" name="w3review" rows="4" cols="50"></textarea>
+      </div>
+      <button class="submitbutton" onclick={submit()}>Connect</button>
+    </section>
+  </main>
+</body>
+
+</html>
